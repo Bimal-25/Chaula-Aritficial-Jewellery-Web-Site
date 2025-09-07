@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fefefe;
+  color: #333;
+}
+
+#main-header {
+  top: 0;
+  position: sticky;
+  background-color: #eae560;
+  padding: 0.65rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid #f86161;
+  z-index: 1000;
+}
+.container {
+  display: flex;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  background-color: #cfd34b;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 1.2rem;
+  color: #c90404;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #c90404;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: white;
+}
+
+nav a:active {
+  background-color: #28d318;
+}
+section {
+  padding: 0;
+  text-align: center;
+}
+
+.intro img {
+  width: 90%;
+  height: auto;
+  border-radius: 2px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  object-fit: cover;
+}
+.card img {
+  width: 100%;
+  height: 22rem;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+.video-card {
+  width: auto;
+  height: 22rem;
+  border-radius: 8px;
+  border: 5px solid #f86161;
+  overflow: hidden;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.card {
+  background-color: #f86161;
+  padding: 0.5rem;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.chaula-card {
+  background-color: white;
+  padding: 0.5rem;
+  border: 3px solid #f86161;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.chaula-card img {
+  border-radius: 2 px;
+  border: 2px solid #f86161;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(190, 52, 52, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.3s ease;
+  text-align: left;
+  font-family: "Courier New", Courier, monospace;
+}
+.btn {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #175760;
+  color: #e1eceb;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.btn-1 {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.3rem 1.2rem;
+  background-color: #4155ef;
+  color: #e1eceb;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.back {
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background-color: #963227;
+}
+
+.intro-fit {
+  display: inline-block;
+}
+/*  Fees Section : Starts */
+/* Soft & Responsive Follow Us Styles */
+.info-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f6eeee;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.address-container,
+.social-container {
+  flex: 1 1 45%;
+  margin: 10px;
+  background-color: whitesmoke;
+  justify-content: center;
+  border-radius: 12px solid #f86161;
+  padding: 0.5rem;
+}
+
+/* .address-container h3,
+.social-container h3 {
+  padding: 0.5rem;
+  margin-bottom: 10px;
+  color: #333;
+} */
+
+.social-icons {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.social-icons img {
+  width: 35px;
+  height: 35px;
+  padding: 0.035rem;
+  transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+/*  Fees Section : Ends */
+
+/*  Form Section : Starts */
+
+.container {
+  max-width: 400px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input {
+  width: 100%;
+  padding: 5px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*  Form Section : Ends */
+.map-container {
+  margin: 5px auto;
+  padding: 5px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.map-title {
+  font-size: 0.75em;
+  margin-bottom: 10px;
+  color: #333;
+}
+.map-frame {
+  width: 100%;
+  height: 155px;
+  border: none;
+  border-radius: 6px;
+}
+
+/* Google Map : Starts */
+
+/* Google Map : Ends */
+@media (max-width: 600px) and (max-width: 900px) {
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* New Media Queries */
