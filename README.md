@@ -1,2 +1,2 @@
-Chaula Artificial Jewellery Web Site - First Loading of files
-Header Backgorund Color changed & content in header is changed
+(1) **Chaula Artificial Jewellery Web Site - First Loading of files**
+(2) **Header Backgorund Color changed & content in header is changed**
