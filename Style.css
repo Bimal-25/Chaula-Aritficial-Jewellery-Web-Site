@@ -68,16 +68,16 @@ section {
 }
 .card img {
   width: 100%;
-  height: 23rem;
+  height: 22rem;
   border-radius: 8px;
-  object-fit: contain;
+  object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.1s ease, box-shadow 0.3s ease;
 }
 
 .video-card {
   width: auto;
-  height: 23rem;
+  height: 22rem;
   border-radius: 8px;
   border: 5px solid #f86161;
   overflow: hidden;
@@ -92,6 +92,8 @@ section {
 
 .card {
   background-color: #f86161;
+  justify-content: center;
+  align-items: center;
   padding: 0.5rem;
   border-radius: 2px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
